@@ -1,5 +1,6 @@
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import Skills from "./components/Skills"
 
 
 
@@ -9,7 +10,7 @@ function App() {
       <Navbar />
       <main>
       <Hero/>
-        <section id="hero"><h2>Sección Hero (En construcción)</h2></section>
+      <Skills/>
         <section id="projects"><h2> Sección Proyectos (En construcción)</h2></section>
       </main>
     </div>
