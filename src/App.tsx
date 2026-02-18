@@ -1,18 +1,23 @@
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Skills from "./components/Skills"
+import Portfolio from "./components/Portfolio"
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 
 
 function App() {
   return (
-    <div>
+    <div className="app-container">
       <Navbar />
       <main>
       <Hero/>
       <Skills/>
-        <section id="projects"><h2> Sección Proyectos (En construcción)</h2></section>
+        <Portfolio/>
+        <Contact/>
       </main>
+      <Footer/>
     </div>
   )
 }
